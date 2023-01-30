@@ -149,6 +149,94 @@ body {
   background-color: var(--hover);
 }
 
+.about {
+  padding: 10rem 7% 2rem;
+}
+
+.about h2 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: var(--hover);
+}
+
+.about-content {
+  display: flex;
+}
+
+.about-content .about-image {
+  flex: 1 1 35rem;
+}
+
+.about-content .about-image img {
+  width: 90%;
+  height: 70%;
+  justify-content: end;
+  border-radius: 0.5rem;
+  object-position: center;
+}
+
+.about-content .about-description {
+  flex: 1 1 35rem;
+  padding: 0 1rem;
+}
+
+.about-content .about-description h3 {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.about-content .about-description p {
+  line-height: 2.5rem;
+  font-size: 1.1rem;
+  text-align: justify;
+}
+
+.portfolio {
+  padding: 10rem 7% 2rem;
+}
+
+.portfolio h3 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: var(--hover);
+  text-align: center;
+}
+
+.portfolio p {
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.portfolio-content {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  justify-content: center;
+}
+
+.item-design {
+  text-align: center;
+}
+
+.item-design h2 {
+  font-size: 1.3rem;
+}
+
+.item-design p {
+  font-size: 1rem;
+}
+
+.item-design img {
+  border-radius: 50%;
+  width: 80%;
+}
+
+.item-images {
+  margin: 1rem auto 0.5rem;
+}
 /* Media Queries */
 
 /* Laptop */
@@ -191,6 +279,37 @@ body {
   .navbar a:hover::after {
     transform-origin: 0 0;
     transform: scaleX(0.2);
+  }
+
+  .about .about-content {
+    flex-wrap: wrap;
+    padding: 0;
+  }
+
+  .about-content .about-image img {
+    width: 100%;
+    height: 24rem;
+    padding: 0;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .about-content .about-description h3 {
+    margin-top: 1.5rem;
+    font-size: 2rem;
+  }
+
+  .about-content .about-description p {
+    font-size: 1.2rem;
+  }
+
+  .item-design h2 {
+    padding-top: 1.5rem;
+    font-size: 1.5rem;
+  }
+
+  .item-design p {
+    font-size: 1.2rem;
   }
 }
 
