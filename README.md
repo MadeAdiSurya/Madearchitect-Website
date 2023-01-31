@@ -1,1 +1,1 @@
-# Restoku-Website-HTML-CSS-JS
+Building website for an architect business using HTML, CSS, JS
