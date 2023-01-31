@@ -241,7 +241,7 @@ body {
 /* Contact */
 
 .contact {
-  margin: 10rem 7% 2rem;
+  padding: 10rem 7% 2rem;
 }
 
 .contact h2 {
@@ -309,7 +309,6 @@ body {
 }
 
 .footer {
-  margin-top: 5rem;
   padding: 1rem 7%;
   background-color: var(--nav-bg);
 }
